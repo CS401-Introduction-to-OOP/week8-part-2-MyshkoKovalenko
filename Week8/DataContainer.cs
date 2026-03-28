@@ -1,8 +1,8 @@
-class DataContaincer<T> where T : DataItem
+class DataContainer<T> where T : DataItem
 {
     List<T> _dataList;
 
-    public DataContaincer()
+    public DataContainer()
     {
         _dataList = new List<T>();
     }
